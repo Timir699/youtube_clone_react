@@ -1,15 +1,12 @@
-import Header from './header/Header'
-import Main from './main/Main'
 import Sidebar from './sidebar/Sidebar'
-import Tags from './tag/Tags'
+import Body from './body/Body'
+
 
 let Components = () => {
     return (
-        <div>
-            <Header />
-            <Main />
-            <Sidebar/>
-            <Tags />
+        <div style = {{display : "flex"}} >
+            <Sidebar />
+            <Body />
         </div>
     )
 }
